@@ -704,6 +704,7 @@ GEM
     aws-sigv4 (1.1.0)
       aws-eventstream (~> 1.0, >= 1.0.2)
     byebug (11.0.1)
+    encryptor (3.0.0)
     jmespath (1.4.0)
 
 PLATFORMS
@@ -712,6 +713,7 @@ PLATFORMS
 DEPENDENCIES
   aws-sdk (~> 3)
   byebug
+  encryptor
 
 BUNDLED WITH
    1.16.6
