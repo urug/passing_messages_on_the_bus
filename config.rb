@@ -2,8 +2,8 @@ require 'aws-sdk-sns'
 require 'aws-sdk-sqs'
 
 # user: passing-messages-on-the-bus
-AWS_KEY_ID = 'AKIAJR6TTLBH65M6UXCA'
-AWS_SECRET_KEY = '4KM6aW6EwK4X/mKm7S6JJlInSuVcTAOZdCncD9Tu'
+AWS_KEY_ID = 'REPLACE'
+AWS_SECRET_KEY = 'REPLACE'
 
 TOPIC_REGION = 'us-west-2'.freeze
 TOPIC_ARN = 'arn:aws:sns:us-west-2:311246316502:passing-messages-on-the-bus'.freeze
